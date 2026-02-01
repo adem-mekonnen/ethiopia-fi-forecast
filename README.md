@@ -105,6 +105,14 @@ Analysis reveals an "Inclusion Paradox" in Ethiopia between 2021 and 2024. While
 ## Data Quality Limitations
 - **Sparsity:** Findex data only provides 5 data points over 13 years, necessitating the use of the "Event Impact Model" in Task 3.
 - **Mixed Formats:** Date formats required normalization from string to datetime objects.
-```
+
+## Interim Status Update (Feb 1, 2026)
+- **Task 1 (Data Enrichment):** Completed. Dataset enriched with NBE infrastructure data and Fayda ID events.
+- **Task 2 (EDA):** Completed. Identified 4G coverage as a leading indicator and analyzed the 'Ownership vs Usage' paradox.
+
+## How to Run
+1. pip install -r requirements.txt
+2. Run `src/task1_enrichment.py` to generate the processed data.
+3. Open `notebooks/02_exploratory_data_analysis.ipynb` to view insights.
 
 
