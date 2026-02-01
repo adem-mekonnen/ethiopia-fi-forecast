@@ -32,11 +32,9 @@ ethiopia-fi-forecast/
 └── venv/                       # Virtual environment (ignored by git)
 ```
 
----
-
 ### 2. Main Project README (`README.md`)
 
-```markdown
+
 # Ethiopia Financial Inclusion Forecasting System
 
 ## Project Overview
@@ -66,14 +64,7 @@ The consortium of stakeholders (DFIs, NBE, and Mobile Money Operators) requires 
 - [ ] **Task 3: Event Impact Modeling** - In Progress
 - [ ] **Task 4: Forecasting** - Planned
 - [ ] **Task 5: Dashboard** - Planned
-```
 
----
-
-### 3. Task 1 README (`data/data_enrichment_log.md`)
-
-```markdown
-# Task 1: Data Enrichment Log
 
 ## Objective
 Enrich the unified starter dataset with high-frequency infrastructure data and key national events to improve model sensitivity.
@@ -94,13 +85,11 @@ Enrich the unified starter dataset with high-frequency infrastructure data and k
 ## Data Quality Assessment
 - **High Confidence:** NBE Annual reports, Ethio Telecom infrastructure stats.
 - **Medium Confidence:** Projected impact magnitudes based on India (Aadhaar) proxy studies.
-```
 
----
 
 ### 4. Task 2 README (`reports/eda_insights.md`)
 
-```markdown
+
 # Task 2: Exploratory Data Analysis Insights
 
 ## Executive Summary
@@ -117,4 +106,5 @@ Analysis reveals an "Inclusion Paradox" in Ethiopia between 2021 and 2024. While
 - **Sparsity:** Findex data only provides 5 data points over 13 years, necessitating the use of the "Event Impact Model" in Task 3.
 - **Mixed Formats:** Date formats required normalization from string to datetime objects.
 ```
+
 
