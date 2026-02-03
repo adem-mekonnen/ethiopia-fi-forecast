@@ -110,9 +110,26 @@ Analysis reveals an "Inclusion Paradox" in Ethiopia between 2021 and 2024. While
 - **Task 1 (Data Enrichment):** Completed. Dataset enriched with NBE infrastructure data and Fayda ID events.
 - **Task 2 (EDA):** Completed. Identified 4G coverage as a leading indicator and analyzed the 'Ownership vs Usage' paradox.
 
+# Ethiopia Financial Inclusion Forecasting System
+
+## Project Overview
+Tracking and forecasting Ethiopia's digital transformation (2011-2027) using an event-augmented trend model.
+
+## Folder Structure
+- `src/`: Modular Python scripts for data processing and forecasting.
+- `notebooks/`: Detailed analysis, impact modeling, and trend discovery.
+- `dashboard/`: Interactive Streamlit application.
+- `data/`: Contains raw starter data and enriched/processed outputs.
+
 ## How to Run
-1. pip install -r requirements.txt
-2. Run `src/task1_enrichment.py` to generate the processed data.
-3. Open `notebooks/02_exploratory_data_analysis.ipynb` to view insights.
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run the pipeline:
+   - `python src/task1_enrichment.py`
+   - `python src/generate_matrix.py`
+   - `python src/task4_forecasting.py`
+3. Launch Dashboard: `streamlit run dashboard/app.py`
 
-
+## Key Findings
+- Identified 4G infrastructure as the primary driver for usage adoption (0.95 correlation).
+- Modeled the Fayda Digital ID rollout as a 5.5pp lift for account ownership.
+- Projected a path to 60% inclusion by 2027 under the Optimistic scenario.
