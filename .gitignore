@@ -20,3 +20,9 @@ data/processed/*.xlsx
 # OS files
 .DS_Store
 Thumbs.db
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/processed/*
+.env
