@@ -61,9 +61,9 @@ The consortium of stakeholders (DFIs, NBE, and Mobile Money Operators) requires 
 ## Tasks Progress
 - [x] **Task 1: Data Exploration & Enrichment** - Complete
 - [x] **Task 2: Exploratory Data Analysis** - Complete
-- [ ] **Task 3: Event Impact Modeling** - In Progress
-- [ ] **Task 4: Forecasting** - Planned
-- [ ] **Task 5: Dashboard** - Planned
+- [x] **Task 3: Event Impact Modeling** - Complete
+- [x] **Task 4: Forecasting** - Implemented (Code ready, waiting for data)
+- [/] **Task 5: Dashboard** - In Progress
 
 
 ## Objective
